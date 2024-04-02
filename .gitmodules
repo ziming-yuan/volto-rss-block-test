@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/collective/volto-ploneconf.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/collective/training_buildout.git
