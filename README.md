@@ -10,13 +10,15 @@ This repository aims to test [volto-rss-block](https://github.com/RedTurtle/volt
 **Installation in frontend**
 1. Run `yarn add volto-rss-block`.
 2. Edit `package.json`:
+   
    ```
    "addons": [
       "volto-rss-block"
     ],
    ```
-3. Run `yarn add mrs-developer`.
-4. Update `mrs.developer.json`:
+4. Run `yarn add mrs-developer`.
+5. Update `mrs.developer.json`:
+   
    ```
    {
     "volto-rss-block": {
@@ -28,6 +30,7 @@ This repository aims to test [volto-rss-block](https://github.com/RedTurtle/volt
    ```
 6. Run `make develop` to install the addon in src/addons/.
 7. Update `jsconfig.json`:
+   
    ```
    {
     "compilerOptions": {
@@ -40,5 +43,12 @@ This repository aims to test [volto-rss-block](https://github.com/RedTurtle/volt
     }
    }  
    ```
-8. Run `yarn install` and `yarn start`. 
-
+9. Run `yarn install` and `yarn start`.
+   
+**Installation in backend**
+1. Update `requirements.txt` to install the backend service available in PyPI that can be installed using pip:
+   
+   ```
+      # List of add-ons that are needed.
+      redturtle.rssservice
+   ```
