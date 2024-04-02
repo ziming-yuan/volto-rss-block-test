@@ -1,6 +1,11 @@
 # Testing Volto RSS Block
 This repository aims to test [volto-rss-block](https://github.com/RedTurtle/volto-rss-block/) in Plone 6.
 
+## Observations:
+### Bugs
+1. Content parsing occasionally fails for certain feeds.
+2. "Read more" button doesn't function properly.
+
 ## Testing Notes:
 ### Running
 * Backend: `make build`, then `make start`
