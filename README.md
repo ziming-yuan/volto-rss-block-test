@@ -3,8 +3,9 @@ This repository aims to test [volto-rss-block](https://github.com/RedTurtle/volt
 
 ## Observations:
 ### Bugs
-1. Content parsing occasionally fails for certain feeds.
-2. "Read more" button doesn't function properly.
+1. Content parsing occasionally fails for certain feeds (as shown in the figure below).
+2. "Read more" button doesn't function properly as the links are empty ("#").
+![screencapture-localhost-3000-test-2024-04-02-00_27_48](https://github.com/ziming-yuan/volto-rss-block-test/assets/104939482/554f1ad4-21f8-4085-8d32-1723f54b00a3)
 
 ## Testing Notes:
 ### Running
