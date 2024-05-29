@@ -11,6 +11,8 @@ This repository aims to test [volto-rss-block](https://github.com/RedTurtle/volt
 ### Running
 * Backend: `make build`, then `make start`
 * Frontend: `make install`, then `yarn start`
+* User name: admin
+* Password: secret
 
 ### Installing Volto-RSS-Block
 **Installation in frontend**
