@@ -12,9 +12,12 @@ This repository aims to test [volto-rss-block](https://github.com/RedTurtle/volt
 * Backend: `make build`, then `make start`
 * Frontend: `make install`, then `yarn start`
 * User name: admin
-* Password: secret
+* Password: admin
 
 ### Installing Volto-RSS-Block
+**Installaion sample frontend and backend**
+1. Run `pipx run cookiecutter gh:collective/cookiecutter-plone-starter`
+   
 **Installation in frontend**
 1. Run `yarn add volto-rss-block`.
 2. Edit `package.json`:
